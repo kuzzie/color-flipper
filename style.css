@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html, 
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.info {
+  background-color: #333;
+  color: white;
+  height: 12rem;
+  width: 24rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.change-colour-button {
+  border: none;
+  padding: 1rem 2rem;
+}
